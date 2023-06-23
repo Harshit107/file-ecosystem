@@ -11,7 +11,7 @@ const FileStore = require("./src/database/private/FileStore");
 
 
 
-app.get("/", (req, res) => {
+app.get("/checkserver", (req, res) => {
   res.send("Server is upto date");
 });
 
